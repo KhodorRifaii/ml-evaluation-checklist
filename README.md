@@ -2,6 +2,9 @@
 
 A short, practical checklist for evaluating machine learning and LLM systems before they ship.
 
+## How to use it
+Copy the checklist into your project's pull request template or release notes, and tick each item before you release. Items that don't apply can be removed, but write down why.
+
 ## Data
 - [ ] Split train/validation/test by time or entity when leakage is possible
 - [ ] Check label quality on a sample you label by hand
